@@ -53,6 +53,9 @@ This project combines tasks 2 and 3. It involves running the application as a Li
   - The application is running in a Docker container.
   - Access the application using port 80.
   - The Dockerfile for building the container is included in this project.
+  - to start container
+   ``` sudo docker run -d -p80:3000 -e "MONGO_DATABASE_URL=mongodb://10.1.0.139:27017/?directConnection=true&serverSelectionTimeoutMS=2000" --name collection maluyvova/collection   ```
 
+### Docker hub link https://hub.docker.com/r/maluyvova/collection
 
 ##  The public IP of the EC2 instance hosting the application is: 54.219.135.233.
