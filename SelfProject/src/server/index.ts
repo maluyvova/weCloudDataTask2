@@ -8,7 +8,7 @@ const app = express();
 const port = 3000;
 
 // mongoose connection
-const uri: string = 'mongodb+srv://wecloudvlad:Xn6DpB3LHjzgFw5U@cluster0.nf1zpps.mongodb.net/?retryWrites=true&w=majority';//process.env.MONGO_DATABASE_URL || '';
+const uri: string = process.env.MONGO_DATABASE_URL || '';
 
 mongoose.Promise = global.Promise;
 console.log(`DB URL ${uri}`);
