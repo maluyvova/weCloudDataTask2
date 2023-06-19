@@ -2,6 +2,17 @@
 
 This repository contains the source code for a JavaScript application that manages a vehicle owner's garage using MongoDB as the database.
 
+## To execute app locally
+- install MongoDB or create account in https://www.mongodb.com/
+- set URL to your MongoDB as env variable
+- `export MONGO_DATABASE_URL='DB_URL'`
+- install NodeJS
+- install NPM
+- run those commands 
+  - `npm i`
+  - `npm run build`
+  - `npm run start`
+
 ## API Endpoints
 
 - To retrieve the vehicles in the owner's garage collection, send an HTTP GET request to:
