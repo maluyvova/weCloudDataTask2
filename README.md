@@ -70,3 +70,6 @@ This project combines tasks 2 and 3. It involves running the application as a Li
 ### Docker hub link https://hub.docker.com/r/maluyvova/collection
 
 ##  The public IP of the EC2 instance hosting the application is: 54.219.135.233.
+
+## To execute app in docker-compose run 
+  ```sudo docker-compose -f docker-compose.yml up -d```
